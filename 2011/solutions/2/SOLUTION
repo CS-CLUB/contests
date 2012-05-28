@@ -1,0 +1,83 @@
+PROBLEM 2 SOLUTION
+------------------
+
+
+2. Simple RE problem, get a lena question and RE it so that it prints out
+	UCSC Contest Problem Two is too hard for you, give up! then get them to change it to
+	<student name> is smarter!
+
+	-> Trick will be that I will pack it with UPX, they'll have to 
+		learn a bit about PEiD / Olly (just some basics)
+
+	-> This will stop anyone from solving it
+
+Easiest solution is to simply figure out what it is packed with (UPX)
+and then unpack it and change the hex string in the binary file using
+a hex editor.
+
+-> The fact that it is packed with UPX prevents people from simply
+opening it in notepad/hexeditor and just changing the message
+
+-> They will need to know/remember that they have to NULL terminate it!
+
+
+FOR WINDOWS
+------------
+
+For windows users the biggest hint is the reference to the tutorials
+and binary author, lena151 she has videos that explain how to RE
+
+1. They will first need to learn what it is packed with, they will have
+   to analyze the binary using either PEiD or some other website such
+   as virustotal.com which gives binary anaylsis.
+
+	-> FIRST STEP "BINARY ANALYSIS" FIND OUT, IS IT C++/VB/C# AND WHETHER
+	   IT IS PACKED AS THESE CLUES ARE REQUIRED TO BEGIN.
+
+
+2. After analyzing it they can simply use UXP to unpack it using
+   upx -d <filename> or learn how to use Olly and unpack it following
+   a tutorial / tuts4you which I will probably give hints to
+	
+http://upx.sourceforge.net/#downloadupx
+
+3. Final step is to open it in some editor, even notepad will work or
+	a free hex editor such as those free ones here
+
+http://stackoverflow.com/questions/10426/what-is-a-good-windows-hex-editor-viewer
+http://en.wikibooks.org/wiki/X86_Disassembly/Analysis_Tools#Windows_Hex_Editors
+
+	and then just change the string (it will show up if you search for
+	it and make sure its null terminated)
+
+
+
+FOR LINUX
+----------
+
+***BINARY COMPILED WITH THE FOLLOWING TO MAKE THE ASSEMBLY EASIER TO READ
+gcc -m32 -march=i386 -static -static-libgcc problem2_linux.c -o problem2_linux
+
+
+For Linux users the biggest challenge is to unpack it with UPX, although
+they may be able to change it without using UPX
+
+1. The first challenge again will be analysis of the binary, what is it
+	32bit/64bit what is it packed with?
+
+2. The next step will be to unpack it, granted on Linux this is quite
+	tricky, so they will need to find out that it is packed and get 
+	UPX and decompress it, http://upx.sourceforge.net/#downloadupx
+
+	./upx -d problem2_linux
+
+3. Final step they can use an opensource/free Hex editor for linux 
+	to change it, they can also look into RE for linux
+
+Evan's Debugger (for RE): http://freecode.com/projects/edebugger
+
+Bless Hex editor: http://home.gna.org/bless/
+
+DHex: http://www.dettus.net/dhex/
+
+Wxeditor: http://www.wxhexeditor.org/

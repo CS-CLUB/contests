@@ -1,0 +1,28 @@
+There are many many different ways to solve this problem, I have the
+python code for the solution which just uses the gnu multiprecision
+library GMP (very VERY good to know) which they should learn about.
+
+-> GMP: http://gmplib.org/
+
+-> To install the gmpy library for python on Debian systems just
+
+	apt-get install python-gmpy
+
+-> For more information on the library, and an updated version of it
+
+	http://code.google.com/p/gmpy/
+
+
+THE ACTUAL "final" SOLUTION:
+----------------------------
+
+065762855682047
+
+
+THE ACTUAL "FINAL" SOLUTION FROM THE GIMPS WEBSITE:
+---------------------------------------------------
+-> http://prime.isthe.com/chongo/tech/math/prime/m20996011/prime-c.html
+
+065,762,855,682,047
+
+

@@ -1,0 +1,45 @@
+SOLUTION
+--------
+
+Original ciphertext and plaintext for the ASCII of the packet data (in hexidecimal) being sent between Alice and Bob.
+
+
+Alice to Bob packet ciphertext:
+-------------------------------
+Url Obo V urneq gung gurer vf guvf arj pbzchgre fpvrapr pyho shyy bs abbof pnyyrq HPFP gurl qbag rira xabj ubj gb unpx yznb
+
+
+Alice to Bob packet ciphertext hexadecimal:
+-------------------------------------------
+55 72 6c 20 4f 62 6f 20 56 20 75 72 6e 65 71 20 67 75 6e 67 20 67 75 72 65 72 20 76 66 20 67 75 76 66 20 61 72 6a 20 70 62 7a 63 68 67 72 65 20 66 70 76 72 61 70 72 20 70 79 68 6f 20 73 68 79 79 20 62 73 20 61 62 62 6f 66 20 70 6e 79 79 72 71 20 48 50 46 50 20 67 75 72 6c 20 71 62 61 67 20 72 69 72 61 20 78 61 62 6a 20 75 62 6a 20 67 62 20 75 6e 70 78 20 79 7a 6e 62
+
+
+Alice to Bob packet plaintext:
+-------------------------------
+Hey Bob I heard that there is this new computer science club full of noobs called UCSC they dont even know how to hack lmao
+
+
+
+Bob to Alice packet ciphertext:
+-------------------------------
+Lrnu jung n ohapu bs ahof gurl qbag rira xabj pelcgb
+
+
+Bob to Alice packet ciphertext hexadecimal:
+-------------------------------------------
+4c 72 6e 75 20 6a 75 6e 67 20 6e 20 6f 68 61 70 75 20 62 73 20 61 68 6f 66 20 67 75 72 6c 20 71 62 61 67 20 72 69 72 61 20 78 61 62 6a 20 70 65 6c 63 67 62
+
+
+
+Bob to Alice packet plaintext:
+-------------------------------
+Yeah what a bunch of nubs they dont even know crypto
+
+
+
+Hex value of the key used by by Alice and Bob for the Caesar cipher:
+------------------------------------------------------------------------
+
+0x0D (13 if using base 10) using a caesar cipher, aka ROT13 of which is
+applied the same both to lowercase and uppercase
+
