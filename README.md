@@ -23,8 +23,8 @@ Copyright (Legal Stuff)
 ------------------------
 
 All of the contents of this repository are broadly copyrighted under the [GNU General Public License, 
-Version 3](http://www.gnu.org/licenses/gpl.html) unless specified otherwise. Furthremore, all of the 
-unique solutions submitted by contestants retain the original authorship and copyright of their works
+Version 3](http://www.gnu.org/licenses/gpl.html) unless specified otherwise. Furthermore, all of the 
+content submitted by contestants retain the original authorship and copyright of their works
 unless specified otherwise.
 
 Find Out More
