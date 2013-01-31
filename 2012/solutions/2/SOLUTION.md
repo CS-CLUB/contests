@@ -14,8 +14,10 @@ Simple steps to solve the problem
     is because of the following line in the PHP code running on the server which 
     retrieves the names of users who solved the problem.
 
-     /* A very insecure query, no one would ever try any SQL injection... */
+    ```php
+    /* A very insecure query, no one would ever try any SQL injection... */
     $query = "SELECT * FROM solved LIMIT " . $_POST['num_results'];
+    ```
 
     This query blindly inserts WHATEVER value you submit into the query, it sounds
     silly but many websites (MANY) are still vulnerable to SQL injection because of
@@ -26,20 +28,26 @@ Simple steps to solve the problem
     users to display: ", the following is a basic SQL injection, which will display the 
     list of tables in the database.
 
-      0; SHOW TABLES
-
+    ```SQL
+    0; SHOW TABLES
+    ```
+    
 2.  Now that you know the name of the table (solved) the next step is to perform
     further SQL injection, now determine some more information such as column names
     in the table, again submit the following in the form for "number of 
     users to display: "
-
+    
+    ```SQL
     0; SHOW COLUMNS FROM solved
+    ```
 
 3.  Now that you have the fundamentals, you can now perform SQL injection to add your
     name to the list of users who solved problem 2 by performing a simple INSERT
     operation.
 
+    ```SQL
     0; INSERT INTO solved VALUES ('Your Name')
+    ```
 
 4.  For part b use your imagination, try seeing if you can DROP the table and 
     remove everyone else or DELETE all the other users except yourself, I had
