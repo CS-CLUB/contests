@@ -110,8 +110,63 @@ waht I was rdanieg."
     optimal solution, using a different languages to "improve" performance (ie. C instead of perl)
     will not help, I am looking at the most clever/optimal solution.
 
-###REFERENCES:
+###REFERENCES
 * http://scienceavenger.blogspot.ca/2007/12/cambridge-word-scramble-study-its-fake.html
+* What the ability to read scrambled words is called: http://hotword.dictionary.com/typoglycemia/
 
-(what the ability to read scrambled words is called)
-* http://hotword.dictionary.com/typoglycemia/
+
+PROBLEM 5
+---------
+
+This will be the final problem of the contest and VERY challenging, infact I may
+have to change it because I am not even certain about how to solve it. But it
+would be a VERY cool problem and they would learn about quantum computers.
+
+The final problem involves a question regarding a quantum state/computer/logic
+that has to be implemented.
+
+1.  For example a good question would involve an implementation that simulates
+	a quantum gate such as creating a "Controlled NOT Gate" or some other
+	quantum gate that is similar.
+    - Could even have them implement a basic computer that does addition
+	  or some other primitive operation using this!
+
+2.  Essentially they would have to implement this gate as part of a "simulated"
+	quantum computer that must read a file called "qubits.txt" or as input
+	and OUTPUT the results of their comparison to a file called "bits.txt"
+	which I would check to see if they passed.
+    - The "qubits.txt" file is NOT GIVEN since people could cheat and just
+	  solve the file, but some form of a sample file will be given and a
+	  description as this is a very challenging problem.
+
+3.  A perfect example is I would have an input of data in qubits and they
+	would have to perform some kind of operation on it using a simulated
+	quantum gate and then either output the results in qubits or perhaps
+	bits.
+
+###NOTE
+At present I am not even sure how to implement this as a question, but it
+would be a VERY good question.
+
+###REFERENCES
+####Quantum Computing Concepts
+* http://en.wikipedia.org/wiki/Quantum_computer
+* http://en.wikipedia.org/wiki/Universal_quantum_computer
+* http://en.wikipedia.org/wiki/Qubit
+* http://en.wikipedia.org/wiki/Quantum_gate
+* http://en.wikipedia.org/wiki/Controlled_not_gate
+* http://en.wikipedia.org/wiki/Shor%27s_algorithm
+
+####Quantum Computer Simulators
+* QCL: http://tph.tuwien.ac.at/~oemer/qcl.html
+* QML: http://sneezy.cs.nott.ac.uk/QML/
+* CHP: http://www.scottaaronson.com/chp/
+* http://en.wikipedia.org/wiki/Universal_quantum_simulator
+
+####Quantum Programming
+* http://en.wikipedia.org/wiki/Quantum_programming
+* GOOD INTRO BY IBM: http://www.ibm.com/developerworks/linux/library/l-quant/index.html
+
+####News/Journal Articles
+* http://arstechnica.com/science/2009/08/one-adiabatic-quantum-computer-down-two-to-go/
+* http://gizmodo.com/5836703/first-quantum-computer-simulator-operates-the-speed-of-light
