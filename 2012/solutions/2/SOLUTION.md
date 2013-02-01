@@ -59,7 +59,7 @@ Great Resources to Find out More
 --------------------------------
 
 The following are some great resources and starting points to find out more about
-SQL injection and how you can secure you databases to prevent SQL injection attacks.
+SQL injection and how you can secure your databases to prevent SQL injection attacks.
 The following should be are just a few reasons why you should always have 
 sanitization and security measures.
 * http://en.wikipedia.org/wiki/SQL_injection
