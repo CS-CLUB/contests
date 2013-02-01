@@ -18,7 +18,7 @@ A lot of great information can be found below:
 Solution
 ---------
 
-Part A:
+###Part A
   
   - The solution is pretty straight forward, first you simply implement a test
     to see if a number is even or odd (eg. if number % 2 == 0, it's even)
@@ -30,7 +30,7 @@ Part A:
     even using dynamic programming with recursion
 
 
-Part B
+###Part B
 
   - The second part builds upon the solution in part A, all you need to add is a
     check after determining if the number is odd and then to see if it is a prime
