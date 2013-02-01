@@ -11,7 +11,7 @@ fact all a hoax, Cambridge never did such a study. Nevertheless, it is an
 interesting problem for the contest.
 
 The following are some interesting references related to this phenomenon, it even
-has a pseudo-science name "typoglycemia"
+has a pseudo-science name "typoglycemia".
 * http://scienceavenger.blogspot.ca/2007/12/cambridge-word-scramble-study-its-fake.html
 * http://hotword.dictionary.com/typoglycemia/
 
@@ -19,7 +19,7 @@ has a pseudo-science name "typoglycemia"
 Solution
 ---------
 
-Part A -- Simple Solution
+###Part A -- Simple Solution
 
 The simple solution is to do the following steps
 
@@ -45,7 +45,9 @@ The simple solution is to do the following steps
     executing the perl script to generate the wordlist, if you also want to handle
     profane/offensive wordlist you have to manually add it from the misc/ folder
 
+    ```bash
     ./mk-list english american british canadian 80 &> wordlist.txt
+    ```
 
   - Store each word from the dictionary in a basic array or hash table even
 
@@ -74,10 +76,9 @@ The simple solution is to do the following steps
     permutations, in this case the solution would not be very optimal.
 
 
-Part B -- More Optimal Solution
+###Part B -- More Optimal Solution
 
-There are many ways to try and achieve an optimal solution for part B, the following
-are some potential approaches
+####There are many ways to try and achieve an optimal solution for part B, the following are some potential approaches
 
   - Instead of having each word in the dictionary in an array use a hashing
     algorithm to create a hashtable, the theoretical complexity is constant time
@@ -92,7 +93,7 @@ are some potential approaches
     the hash table.
 
 
-Another approach may be to do the following
+####Another approach may be to do the following
 
   - You know that for every word the first and last character are always in place
     for example alppe (apple) the "a" and "e" are in place but the middle is 
@@ -111,10 +112,11 @@ Another approach may be to do the following
   - For example, using the word "apple" and other similar words ending in f and g
     as an example stored in this data structure you may have the following:
 
+    ```
     5 --> a --> e --> [apple, amore]
           |
           ----> f --> [adolf]
           |
           ----> g --> [acing, aging, along, among, aping, awing, ...]
-
+    ```
     
