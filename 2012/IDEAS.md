@@ -170,3 +170,4 @@ would be a VERY good question.
 ####News/Journal Articles
 * http://arstechnica.com/science/2009/08/one-adiabatic-quantum-computer-down-two-to-go/
 * http://gizmodo.com/5836703/first-quantum-computer-simulator-operates-the-speed-of-light
+* http://www.sciencedaily.com/news/computers_math/quantum_computers/
