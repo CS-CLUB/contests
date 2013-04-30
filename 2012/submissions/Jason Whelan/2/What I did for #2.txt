@@ -1,0 +1,8 @@
+After I found that spaces were being filtered, I began trying looking for table and column information from the schema. Once I had that, I tried to update the "name" entry to my name. 
+That didn't seem to be working so at first I thought I didn't have permissions. After getting frustrated and clicking it continuously my name showed up... Then I realised "Wesley Taylor" either had a timed MySQL event set to update every second, or he was using a script to spam the page with updates. I decided to combat him and wrote a quick script and had it run on my VPS. 
+After a while, his updates stopped coming. I stopped my script and thought he either got blacklisted or was looking for a way to lock me out. I decided now is the time to try to do the same thing.
+I tried a few things but at the time I thought the best way to stop other people from adding their name to the database was to stop them from sending ANY queries. So, I changed the user's ("limited")
+password (to "ihatewesley" after the spam war haha) to stop the script from connecting to the database.
+
+I probably shouldn't have changed the pass, because I realised after that the rules wanted my name actually displayed on the page, not just in the database. I couldn't change it back because I didn't
+know what it was originally. I appologize if I destroyed the challenge... :/
