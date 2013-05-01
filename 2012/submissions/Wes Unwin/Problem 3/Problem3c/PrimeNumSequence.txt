@@ -1,0 +1,3 @@
+Prime Num Sequence Output:  (Size of Sequence: 14 )
+                            (Initial Value for sequence, that has these primes: 8931 )
+13397 157 59 89 67 101 19 29 11 17 13 5 2 1 

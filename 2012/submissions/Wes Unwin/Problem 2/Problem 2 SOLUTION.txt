@@ -1,0 +1,9 @@
+In order to solve problem two the following text was injected into the text area 
+at cs-club.ca/contest/
+
+
+1; INSERT INTO solved VALUES ('Wes Unwin')
+
+
+Note that the table solved was discovered using the SHOW TABLES querry then
+'DESCRIBE solved' querry.
