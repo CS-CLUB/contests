@@ -1,0 +1,14 @@
+Hnamus hvae an itanne eorrr cortcering aiblity to fix eorrr-ledan secnetnes,
+scuh as tihs one. In msot cesas we olny need the fsrit and lsat chatcarers to be
+in pcale in oedrr to be albe to raed the txet wtih llttie difuciflty. Imemelpnt
+a soitulon taht can tkae a sclbmared senetnce wehre the fsrit and lsat
+chatcarers are in oedrr as iupnt and ouptut the coerrct senetnce. For expmale
+gevin the foiwollng txet as iupnt: "Olny srmat poelpe can raed tihs. I cdnuolt
+blveiee taht I cluod aulaclty uesdnatnrd waht I was rdanieg."  Yuor prrgoam
+sluohd be albe to ouptut silimar to the foiwollng: "Only smart people can read
+this. I couldnt believe that I could actually understand what I was reading."
+
+(BUNOS) Bunos mrak for the posren who cemos up wtih the msot opmital soitulon.
+By opmital I am reirrefng to peramrofnce/mromey/altiroghm opmital soitulon,
+unisg a diereffnt prommarging lagaugnes to "imorpve" peramrofnce (ie. C inetsad
+of Pothyn) wlil not hlep, I am loikong at the msot cevelr/opmital soitulon.

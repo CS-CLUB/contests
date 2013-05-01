@@ -1,0 +1,27 @@
+Simple Input
+
+dog
+alppe
+rndaom
+coepnnsrrodece
+exacrurltircuar
+
+
+Moderate Input
+
+The dog met a cat
+The ctumepor scecine culb has mnay meemrbs
+The ochligary of onmtienpot ledears konw a kneieadrgrtenr
+
+
+Harder Input
+
+Don't touch that
+We arne't kwonn; taht's beaucse we're unonwkn!
+We sldn'huot do this; dn'ot hiaestte-- may just be the dneki-cesnd ya' konw?
+
+
+
+Long Harder Input Excerpt from James Joyce's Ulysses
+
+As they walked they at times stopped and walked again continuing their tête-à-tête (which, of course, he was utterly out of) about sirens enemies of man's reason, mingled with a number of other topics of the same category, usurpers, historical cases of the kind while the man in the sweeper car or you might as well call it in the sleeper car who in any case couldn't possibly hear because they were too far simply sat in his seat near the end of lower Gardiner street and looked after their lowbacked car.
