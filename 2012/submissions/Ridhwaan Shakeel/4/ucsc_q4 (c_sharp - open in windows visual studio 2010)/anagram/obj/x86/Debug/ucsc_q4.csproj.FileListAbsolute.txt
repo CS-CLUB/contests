@@ -1,0 +1,7 @@
+C:\Users\100425724\Documents\Visual Studio 2010\Projects\anagram\anagram\bin\Debug\anagram.exe
+C:\Users\100425724\Documents\Visual Studio 2010\Projects\anagram\anagram\bin\Debug\anagram.pdb
+C:\Users\100425724\Documents\Visual Studio 2010\Projects\anagram\anagram\obj\x86\Debug\anagram.Form1.resources
+C:\Users\100425724\Documents\Visual Studio 2010\Projects\anagram\anagram\obj\x86\Debug\anagram.Properties.Resources.resources
+C:\Users\100425724\Documents\Visual Studio 2010\Projects\anagram\anagram\obj\x86\Debug\ucsc_q4.csproj.GenerateResource.Cache
+C:\Users\100425724\Documents\Visual Studio 2010\Projects\anagram\anagram\obj\x86\Debug\anagram.exe
+C:\Users\100425724\Documents\Visual Studio 2010\Projects\anagram\anagram\obj\x86\Debug\anagram.pdb
