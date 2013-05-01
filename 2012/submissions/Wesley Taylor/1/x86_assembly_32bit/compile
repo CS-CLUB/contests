@@ -1,0 +1,4 @@
+#!/bin/bash
+
+nasm -f ELF32 problem_1.asm
+ld -melf_i386 -o problem_1 problem_1.o

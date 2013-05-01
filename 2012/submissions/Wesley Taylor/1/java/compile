@@ -1,0 +1,3 @@
+#!/bin/bash
+
+javac problem_1.java

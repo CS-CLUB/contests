@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm problem-3.fasl
+sbcl --eval "(progn (compile-file \"problem-3.lisp\") (exit))"

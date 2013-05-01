@@ -1,0 +1,5 @@
+This will require sbcl.
+
+Run compile first, then each of part_{a,b,c} for the respective parts.
+
+Part c does not take long to run.

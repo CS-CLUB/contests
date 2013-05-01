@@ -1,0 +1,3 @@
+#!/bin/bash
+
+racket problem-1.rkt

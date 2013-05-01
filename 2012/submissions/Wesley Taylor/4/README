@@ -1,0 +1,28 @@
+First, run compile.
+
+Then, run run.
+
+If you want to see timing statistics, run run_with_statistics instead.
+
+This requires sbcl.
+
+This implementation uses a custom wordlist with ~22000 words. I found
+that generally more than that had too many non-word words. The words
+are loaded into a trie, so the memory usage is very efficient.
+
+The biggest problem originally was that a very long word (29
+characters) would take ~42s to try all permutations.
+
+The way it is written now, each branch of permutations will terminate
+either if there are no letters for the current position, or if the
+maximum current sub-trie height is less than the length of the
+remaining letters.
+
+Now, trying a 29 character word terminates instantly, and a 27 word
+that has no possible unscrambled result takes only ~0.2 s.
+
+The rest is farily efficient. Approximately 1000 repetitions of the
+sample string given in the contest questions only takes ~0.6 s.
+
+If you want to replace wordlist.txt, I'm not sure how well it will
+deal with special characters like quotes and periods.

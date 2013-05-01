@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sbcl --noinform --load problem-3.lisp --eval "(part-b)"

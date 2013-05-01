@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -e problem_1.class ]
+then
+  scala problem_1
+else
+  echo "Compile first."
+fi

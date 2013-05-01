@@ -1,0 +1,29 @@
+Each of the implementations have a run script that can be used to run them.
+
+Some have a compile script that may need to be run first.
+
+You will need:
+racket
+sbcl
+ocaml
+g++
+ghc (haskell)
+python
+ruby
+perl
+javac
+scalac
+nasm (assembly)
+
+They should all be basic Arch packages --- no AUR needed (I think).
+
+For the assembly version, lines are LF delimited, that is, 0xA delimeted.
+
+For all implementations, the first line of input should consist of a
+single word with no spaces, followed by a LF linebreak.
+
+The next line should consist of any ASCII characters, followed by another LF linebreak.
+
+Don't go throwing CR linebreaks at the Assembly version, or something might break.
+
+The assembly version will compile fine on a 64-bit machine.

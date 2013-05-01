@@ -1,0 +1,3 @@
+#!/bin/bash
+
+g++ problem_1.cpp -o problem_1
