@@ -68,6 +68,9 @@ pip-log.txt
 *.project
 .settings/
 
+# Java gitignores
+*.class
+
 # Haskell ignores
 dist
 cabal-dev
@@ -91,14 +94,3 @@ cabal-dev
 *.lai
 *.la
 *.a
-
-#OCaml ignores
-*.annot
-*.cmo
-*.cma
-*.cmi
-*.a
-*.o
-*.cmx
-*.cmxs
-*.cmxa

@@ -68,6 +68,9 @@ pip-log.txt
 *.project
 .settings/
 
+# Java gitignores
+*.class
+
 # Haskell ignores
 dist
 cabal-dev
