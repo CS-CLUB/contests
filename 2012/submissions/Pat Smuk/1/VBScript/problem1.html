@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/vbscript">
+
+Function myFunction()
+word = InputBox("Enter your word to find:")
+text = InputBox("Enter the text to search through:")
+index = InStr(text, word)
+MsgBox("The first index of " & word & " in the text is: " & index)
+End Function
+
+</script>
+</head>
+<body>
+
+Click the button to solve the problem with VBScript.</br>
+<b>Note:</b> This solution requires Internet Explorer.</br>
+<button onclick="myFunction()">Solve!</button>
+
+</body>
+</html>

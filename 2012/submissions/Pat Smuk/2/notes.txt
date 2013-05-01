@@ -1,0 +1,7 @@
+DB: contest_2012
+table: solved
+columns: name
+
+Solution to problem 2:
+
+curl --data "num_results=0; INSERT INTO solved VALUE ('Pat Smuk')" http://cs-club.ca/contest/results.php

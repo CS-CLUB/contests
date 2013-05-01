@@ -1,0 +1,249 @@
+13
+17
+11
+7
+37
+197
+131
+349
+1861
+162616661
+Primes: 11
+181
+241
+82261
+Primes: 6
+Primes: 10
+91575637
+488403397
+651204529
+Primes: 11
+Primes: 6
+537941
+Primes: 8
+8607061
+11476081
+Primes: 9
+Primes: 8
+Primes: 7
+Primes: 10
+Primes: 3
+277
+24204629
+Primes: 4
+1109
+739
+Primes: 4
+2957
+31541
+336437
+224291
+Primes: 7
+47317
+Primes: 4
+29
+19
+101
+67
+89
+59
+157
+13397
+Primes: 12
+1621
+2161
+11801941
+Primes: 9
+Primes: 7
+Primes: 11
+10069
+13747541
+146640437
+97760291
+Primes: 14
+Primes: 12
+Primes: 13
+415061
+276707
+Primes: 8
+Primes: 6
+17709269
+47224717
+Primes: 9
+Primes: 8
+269
+179
+Primes: 9
+149
+397
+2168149
+Primes: 8
+7624021
+162645781
+Primes: 11
+Primes: 7
+53
+Primes: 2
+17749
+Primes: 3
+853
+4549
+388181
+258787
+Primes: 5
+16562389
+Primes: 5
+40277
+Primes: 11
+Primes: 6
+Primes: 11
+Primes: 6
+164975957
+109983971
+Primes: 12
+Primes: 11
+1164629
+198763349
+Primes: 4
+Primes: 2
+70997
+12116821
+16155761
+Primes: 5
+Primes: 9
+504661
+10766101
+Primes: 6
+Primes: 4
+Primes: 4
+Primes: 3
+Primes: 9
+Primes: 10
+Primes: 3
+3413
+Primes: 2
+218453
+582541
+Primes: 3
+Primes: 2
+3495253
+Primes: 2
+Primes: 10
+72701269
+Primes: 3
+336942421
+Primes: 6
+Primes: 5
+366302549
+Primes: 9
+Primes: 8
+3797
+2531
+Primes: 11
+Primes: 10
+60757
+Primes: 10
+Primes: 8
+1237
+105557
+1125941
+3002509
+16013381
+Primes: 10
+Primes: 7
+1688917
+Primes: 7
+432362837
+Primes: 7
+Primes: 6
+Primes: 9
+Primes: 5
+192160597
+256214129
+683237677
+Primes: 11
+Primes: 8
+Primes: 10
+Primes: 9
+Primes: 3
+Primes: 4
+Primes: 2
+61781
+658997
+Primes: 6
+10543957
+224937749
+149958499
+Primes: 8
+Primes: 7
+Primes: 6
+988501
+Primes: 5
+Primes: 7
+1877
+20021
+213557
+2277941
+Primes: 8
+Primes: 7
+7689557
+Primes: 5
+82007381
+Primes: 6
+Primes: 6
+Primes: 5
+492131669
+Primes: 5
+Primes: 4
+8672597
+Primes: 8
+Primes: 7
+Primes: 5
+Primes: 3
+Primes: 4
+Primes: 9
+13981013
+Primes: 2
+Primes: 1
+1429
+7621
+2601301
+3468401
+2312267
+Primes: 13
+36996277
+Primes: 13
+Primes: 11
+Primes: 12
+Primes: 10
+5717
+975701
+2601869
+Primes: 11
+Primes: 8
+Primes: 9
+Primes: 9
+Primes: 10
+Primes: 3
+21531989
+Primes: 6
+Primes: 5
+42175829
+Primes: 6
+Primes: 5
+183637
+62681429
+Primes: 10
+Primes: 9
+734549
+7835189
+Primes: 10
+Primes: 9
+Primes: 8
+2389
+Primes: 6
+39146837
+Primes: 6
+626349397
+Primes: 6
+Primes: 5
