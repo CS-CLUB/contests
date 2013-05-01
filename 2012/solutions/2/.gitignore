@@ -67,3 +67,27 @@ pip-log.txt
 *.buildpath
 *.project
 .settings/
+
+# Haskell ignores
+dist
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+.virthualenv
+
+# C++ ignores
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
