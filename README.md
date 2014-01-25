@@ -31,5 +31,5 @@ Find Out More
 -------------
 
 If you are interested in the problems and find them challenging/enjoyable and would like to find out
-more about the Computer Science Club at UOIT and Durham College then please feel free to contact us at,
-[admin@cs-club.ca](mailto:admin@cs-club.ca).
+more about the Computer Science Club at UOIT and Durham College then please feel free to visit our website 
+[http://cs-club.ca](http://cs-club.ca) or contact us at, [admin@cs-club.ca](mailto:admin@cs-club.ca).
