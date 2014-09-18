@@ -1,0 +1,2 @@
+#!/bin/bash
+perl word_frequency.pl "$1"

@@ -1,0 +1,2 @@
+#!/bin/bash
+python2.7 word_frequency.py "$1"

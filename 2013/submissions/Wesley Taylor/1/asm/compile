@@ -1,0 +1,3 @@
+#!/bin/bash
+g++ -x assembler -c word_frequency.asm -o word_frequency.o
+g++ word_frequency.o -o word_frequency

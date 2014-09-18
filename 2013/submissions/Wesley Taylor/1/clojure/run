@@ -1,0 +1,2 @@
+#!/bin/bash
+clojure word-frequency.clj "$1"

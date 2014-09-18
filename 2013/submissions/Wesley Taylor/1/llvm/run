@@ -1,0 +1,2 @@
+#!/bin/bash
+lli word_frequency.ll "$1"

@@ -1,0 +1,16 @@
+Each directory has its own README.
+
+You will need sbcl with quicklisp.
+
+It is trivial to install.
+
+This should be sufficient:
+
+CLI:
+$ curl -O http://beta.quicklisp.org/quicklisp.lisp
+$ sbcl --load quicklisp.lisp
+SBCL:
+* (quicklisp-quickstart:install)
+
+
+If it doesn't work, see http://www.quicklisp.org/beta/#installation or email me.

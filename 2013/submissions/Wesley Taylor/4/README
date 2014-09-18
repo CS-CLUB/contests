@@ -1,0 +1,13 @@
+The script used to keep my score on top.
+
+Compile with `make', the optional first cli argument to `russian' determines the time between sending the new scores.
+
+The code is the last 32 characters of the SHA1 hash of the usernameusername.
+
+To find this:
+1) Intercept the traffic of the game so that *every* username is authenticated
+2) Use a username of `a'
+3) Grab the code sent to the server with wireshark/local proxy
+4) Search for the code on Google
+5) Find that its the last segment for the SHA1 hash of `aa'.
+6) YAY!

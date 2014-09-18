@@ -1,0 +1,2 @@
+#!/bin/bash
+./word_frequency.sh "$1"

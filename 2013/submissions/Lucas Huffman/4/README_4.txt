@@ -1,0 +1,1 @@
+Top score was added to the scoreboard

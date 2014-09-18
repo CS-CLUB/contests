@@ -1,0 +1,17 @@
+This problem solution requires sbcl and quicklisp.
+
+Put the `suspect_{0..63}.txt' files into the `sequences' directory.
+
+For quicklisp, read the toplevel readme.
+
+As long as they are both installed properly, `make' will compile the executable, and `./dna-compare' will run it. It is assumed that the suspect files are in the relative directory `sequences' and named as `suspect_{0..63}.txt'.
+
+From my interpretation of the question, *every* unique pair of sequences should be considered. In total, this means that we must examine sum(1,62) = 1953 pairings.
+
+Each pairing is ranked for similarity using an edit distance style metric; two equal characters have a cost of 0, the presence of a ? in eithe sequence has a cost of 3, as there is a 3/4 chance that the characters do *not* match between sequences, and finally, if the characters are unequal, the cost is 4 as there is a 4/4 chance that the charcaters do not match.
+
+We apply this metric to each suspect in *parallel* using by default 4 threads (this can be changed on line 6 before compiling). This is the major speed optimization.
+
+The program will find, in the end, that the sequences of suspect 7 and 43 represent the guilty person, with 86.464226% similarity. The remaining 1952 matches are printed in order of similarity and include the percentage of similarity.
+
+The speed increase is directly proportional to the number of threads. From 1 to 4 resulted in a 4x increase.

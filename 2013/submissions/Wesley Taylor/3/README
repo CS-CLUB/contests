@@ -1,0 +1,19 @@
+A simple `make' will compile two executables: `problem_3_part_a' and `problem_3_part_b'.
+
+Problem 3 part b will keep going forever.
+
+Each part uses the Miller Rabin primality test for generating primes.
+
+Even though it *is* probabilistic, you will need to check approximately one trillion primes before you get a false positive. For more arguments:
+http://stackoverflow.com/questions/4159333/rsa-and-prime-generator-algorithms/4160517#4160517
+
+Really, a subset of Goldbach's Weak Conjecture. Do you really want the proof?
+
+First, read this:
+http://arxiv.org/abs/1305.2897
+
+then this:
+http://arxiv.org/abs/1205.5252/
+
+and finally, you will be able to understand this:
+http://arxiv.org/abs/1312.7748

@@ -1,0 +1,28 @@
+There are 16 implementations. The ordering of the count is guarenteed to be from most frequent to least. For any words with equal counts, the order is undefined.
+
+Each folder contains an optional `compile' script which should be run first if present, and a `run' script which invokes the program. Each takes the file to count the words of as the first argument, and outputs the count to  a file named `freqs.txt'.
+
+For comparing, a `sort -rn' of the output will provide a consistient ordering of both the first and second columns.
+
+The asm version is highly dependant on the current version of GCC, as it links against some GCC libraries; note that the source code is fully assembly. It worked fine on a fresh Arch install and with GCC 4.8.2 20131219.
+
+Also, I have included *two* assembly versions, llvm being the second. +20.
+
+The shortest (in the shortest folder) is a bash version which outputs the count to a file named 'f'. It is 90 characters long.
+
+The packages required are approximately:
+gcc
+clang/llvm
+awk
+bash
+java
+scala
+clojure
+sbcl
+d
+go
+haskell
+perl
+python2.7
+racket
+ruby
